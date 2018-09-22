@@ -1,10 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="linki" style="height: 100vh;">
+        <!--    link do zewnętrznego zrodla-->
+        <a href="https://google.com" target="_blank">https://google.com</a>
+
+        <!--   do zrodel wewnetrznych ( z "/" w przypadku hostingu)-->
+        <!--   <a href="/contact.html">contact</a>-->
+        <a href="contact.html">contact</a>
+
+        <!--    kotwica - link do elementu na stronie-->
+        <a href="#team">team</a>
+
+        <!--    mailto:adres@mailowy.pl - odsylacz do maila-->
+        <a href="mailto:mgasiorek@akademia198.pl">napisz do mnie</a>
+
+        <!--   tel:+prefiksNumerTelefomu - odsylacz do telefonu-->
+        <a href="tel:+48609546297">609 546 297</a>
+    </div>
+    <div class="tabela">
+        <!--       table - kontener dla tabeli-->
+        <table>
+            <!--           glowa tabeli - np. naglowki-->
+            <thead>
+                <!--rzad-->
+                <tr>
+                    <th>Nr</th>
+                    <th>Nazwa</th>
+                    <th>Cena</th>
+                </tr>
+            </thead>
+            <!--            cialo tabeli-->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>owoce</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>warzywa</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>nabial</td>
+                    <td>20</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="form">
+        <form action="" method="">
+           <label for="name">imie</label>
+            <input type="text" name="name" id="name">
+            <input type="email" name="email" required>
+            <input type="number" name="number" placeholder="Podaj numer">
+            <input type="checkbox" name="checkbox">
+            <input type="radio" name="radio">
+            <input type="radio" name="radio">
+            <textarea maxlength="255" name="textarea" id="msg" cols="30" rows="10"></textarea>
+            <select name="" id="">
+                <option value="car">samochod</option>
+                <option value="bike">rower</option>
+                <option value="motor">motor</option>
+            </select>
+            <input type="submit" value="wyślij">
+        </form>
+    </div>
+    <section id="team" style="height: 100vh;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, sint et nulla eos a, reiciendis mollitia quisquam aperiam ipsa, illo quia illum tempore nobis dignissimos maxime labore. Sapiente, amet, cum.</p>
+
+    </section>
 </body>
+
 </html>
